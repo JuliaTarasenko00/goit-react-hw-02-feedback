@@ -1,0 +1,16 @@
+.feedback_item_statistic:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.feedback_list_statistic {
+  margin-bottom: 20px;
+}
+
+.feedback_total {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.feedback_positive {
+    font-weight: 600;
+}
