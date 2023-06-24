@@ -5,13 +5,14 @@ import css from './feedbackOptions.module.css';
 
 class FeedbackOptions extends Component {
   render() {
+    const { options, onLeaveFeedback } = this.props;
     return (
       <ul className={css.feedback_btn_list}>
-        {this.props.options.map(option => {
+        {options.map(option => {
           return (
             <li key={option}>
               <button
-                onClick={() => this.props.onLeaveFeedback(option)}
+                onClick={() => onLeaveFeedback(option)}
                 className={css.feedback_btn}
                 type="button"
               >
