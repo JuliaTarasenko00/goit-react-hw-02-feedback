@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Statistic from './Statistics/Statistics';
+import Statistic from 'components/Statistics/Statistics';
 import FeedbackOptions from './FeedbackOptions/FeedbackOptions';
 import { Section } from './SectionTitle/Sectiontitle';
 
